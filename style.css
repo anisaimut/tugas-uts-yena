@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A34343;
+    padding: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: #f8f8f8;
+    text-decoration: none;
+    margin-inline-end: 1rem;
+    margin-inline-start: 1rem;
+}
+
+.logo img {
+    max-height: 55px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+header {
+    background-color: #E9C874;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+h1 {
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #333;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #A34343;
+}
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin: 0;
+    background-color: #A34343;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+nav li:hover {
+    background-color: #E9C874;
+}
+section {
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: auto;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.menu-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: 1s;
+}
+.menu-item:hover{
+    box-shadow: 1px 1px 10px gray;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.menu-item h3 {
+    margin-top: 0;
+}
+.menu-item p {
+    margin: 10px 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #ff6f00;
+}
+footer ul li a{
+    color: white;
+    padding: 0.2rem;
+    border-radius: 3px;
+    transition: 1s;
+}
+footer ul li a:hover{
+    color: white;
+    background-color: #ff6f00;
+    transition: 1s;
+}
+.judul-footer{
+    color: #A34343;
+    display: block;
+}
+.a{
+    margin-inline-start: 19rem;
+}
+.b{
+    margin:  0 2rem 0 2rem;
+}
+
+.flex-container{
+    display: flex;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
